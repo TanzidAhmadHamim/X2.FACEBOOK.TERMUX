@@ -27,13 +27,13 @@ while 0 < 999:
                     cookies=input("\033[31m[\033[32m+\033[31m] \033[1m\033[33m Your FB Cookie:👇\n\033[33m━━━━━━━━━━━━━━━━━━━━━━━\033[36m\n" + (cookies))
                     print("\033[33m━━━━━━━━━━━━━━━━━━━━━━━")
                 elif opt == "N" or opt == "n":
-                    os.system("python cookie.py")
+                    os.system("python x2cookie.py")
                 else :
                     print("\033[32m[\033[31mx\033[32m] \033[31mWrong Input Try Again ")
                     time.sleep(2)
-                    os.system("python main.py")
+                    os.system("python x2main.py")
         else:
-            os.system("python cookie.py")
+            os.system("python x2cookie.py")
         try:
             response = requests.get('https://business.facebook.com/business_locations', headers = {
                 'Cookie': cookies,
