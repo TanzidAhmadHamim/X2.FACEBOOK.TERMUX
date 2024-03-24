@@ -14,8 +14,8 @@ pip install re
 
 echo -e "\033[32m\033[1mProgram Launching...." | pv -qL 10
 
-rm setup.sh 
+rm x2setup.sh 
 
-python main.py
+python x2main.py
 
  
